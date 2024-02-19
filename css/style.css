@@ -1,0 +1,99 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+body {
+  margin: 0;
+}
+
+.tContainer {
+  margin: 60px 15% 0;
+}
+.tContainer .addBar {
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 40px;
+  width: 100%;
+}
+.tContainer .addBar input#text {
+  width: calc(100% - 100px);
+  margin: 0;
+  padding: 0px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.145);
+  border-radius: 5px;
+}
+.tContainer .addBar button#add {
+  border: none;
+  width: 100px;
+  background: rgb(92, 137, 221);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tContainer .addBar button#add:hover {
+  background: rgb(47, 75, 126);
+}
+.tContainer .filterButton {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+.tContainer .filterButton .filter {
+  margin: 0px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgb(92, 137, 221);
+  border: 1px solid rgb(92, 137, 221);
+  cursor: pointer;
+}
+.tContainer .filterButton .filter:hover {
+  background: rgb(92, 137, 221);
+  color: white;
+}
+.tContainer .filterButton .filter:nth-of-type(1) {
+  border-radius: 5px 0px 0px 5px;
+}
+.tContainer .filterButton .filter:nth-of-type(2) {
+  border-left: none;
+  border-right: none;
+}
+.tContainer .filterButton .filter:nth-of-type(3) {
+  border-radius: 0px 5px 5px 0px;
+}
+.tContainer main .taskContainer {
+  padding: 0;
+}
+.tContainer main .taskContainer .task {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.145);
+}
+.tContainer main .taskContainer .task:nth-of-type(1) {
+  border-radius: 5px 5px 0 0;
+}
+.tContainer main .taskContainer .task:nth-last-of-type(1) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.145);
+  border-radius: 0 0 5px 5px;
+}
+.tContainer main .taskContainer .task input {
+  margin: 0px 15px;
+}
+.tContainer main .taskContainer .task button {
+  padding: 5px 10px;
+  justify-self: right;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 0 15px 0 auto;
+  cursor: pointer;
+}
+.tContainer main .taskContainer .task button:hover {
+  background-color: rgb(131, 0, 0);
+}
+
+/*# sourceMappingURL=style.css.map */
