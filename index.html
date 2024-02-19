@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" type='module' defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="tContainer">
+        <form class="addBar">
+            <input required type="text" placeholder="Faire les courses..." id="text">
+            <button id="add">Ajouter</button>
+        </form>
+        <div class="filterButton">
+            <button type="button"  id="toutes" class="filter">Toutes</button>
+            <button type="button" id="faire" class="filter">A faire</button>
+            <button type="button" id="faites" class="filter">Faites</button>
+        </div>
+        <main>
+            <ul class="taskContainer">
+                <li class="task">
+                    <input type="checkbox" name="" id="" >
+                    <p>Acheter des lames de rasoir</p>
+                    <button class="delete">X</button>
+                </li>
+                <li class="task">
+                    <input type="checkbox" name="" id="">
+                    <p>Me raser le crane</p>
+                    <button class="delete">X</button>
+                </li>
+                <li class="task">
+                    <input type="checkbox" name="" id="">
+                    <p>Faire un nouveau repo git</p>
+                    <button class="delete">X</button>
+                </li>
+                <li class="task">
+                    <input type="checkbox" name="" id="">
+                    <p>Aller a la salle</p>
+                    <button class="delete">X</button>
+                </li>
+            </ul>
+        </main>
+    </div>
+</body>
+
+</html>
